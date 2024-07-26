@@ -15,7 +15,6 @@ const getTotalIsles = (grid) => {
         dfs(r, c - 1); 
     };
 
-    // Iterate through the grid
     for (let r = 0; r < rows; r++) {
         for (let c = 0; c < cols; c++) {
             if (grid[r][c] === 'L') {
