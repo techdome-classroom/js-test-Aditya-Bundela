@@ -10,7 +10,7 @@ for(let i=0; i<str.lenght; i++){
 return false;
   }
 }
-return false;
+return true;
 };
 
 module.exports = decodeTheRing;
