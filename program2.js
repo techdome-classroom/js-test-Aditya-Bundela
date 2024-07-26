@@ -13,4 +13,4 @@ return false;
 return true;
 };
 
-module.exports = decodeTheRing
+module.exports = decodeTheRing;
