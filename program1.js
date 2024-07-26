@@ -25,5 +25,4 @@ const getTotalIsles = (grid) => {
     }
     return islandCount;
 };
-
 module.exports = getTotalIsles;
