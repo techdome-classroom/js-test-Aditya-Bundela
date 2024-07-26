@@ -10,3 +10,4 @@ for(let i=0; i<str.lenght; i++){
 return false;
   }
 }
+return true;
