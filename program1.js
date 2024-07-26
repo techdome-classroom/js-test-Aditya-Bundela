@@ -1,7 +1,4 @@
-const getTotalIsles = function (grid) {
 
-
-  // write your code here
   const getTotalIsles = (grid) => {
     if (grid.length === 0) return 0;
 
