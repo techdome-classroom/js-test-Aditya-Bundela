@@ -1,5 +1,4 @@
-
-  const getTotalIsles = (grid) => {
+const getTotalIsles = (grid) => {
     if (grid.length === 0) return 0;
 
     const rows = grid.length;
