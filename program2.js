@@ -1,4 +1,4 @@
-function decodeTheRing =(string, pattern) {
+function decodeTheRing(string, pattern) {
   // Convert the pattern into a regex pattern
   let regexPattern = pattern
     .replace(/\*/g, '.') // Convert '*' to '.' to match any single character
