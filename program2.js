@@ -6,4 +6,7 @@ if(str.lenght !== pattern.length){
 
 for(let i=0; i<str.lenght; i++){
   if(pattern[i] !== '*' && str[i]!== pattern[i])
+  {
+    
+  }
 }
