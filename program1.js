@@ -23,7 +23,6 @@ const getTotalIsles = (grid) => {
             }
         }
     }
-
     return islandCount;
 };
 
