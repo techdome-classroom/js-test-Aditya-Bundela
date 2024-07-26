@@ -5,12 +5,10 @@ const getTotalIsles = (grid) => {
     const cols = grid[0].length;
     let islandCount = 0;
 
-    // Helper function for DFS
     const dfs = (r, c) => {
-        // Check bounds and if cell is 'L'
+
         if (r < 0 || c < 0 || r >= rows || c >= cols || grid[r][c] === 'W') return;
         
-        // Mark this cell as visited by changing it to 'W'
         grid[r][c] = 'W';
         
         // Explore all 4 directions
