@@ -6,15 +6,12 @@ const getTotalIsles = (grid) => {
     let islandCount = 0;
 
     const dfs = (r, c) => {
-
         if (r < 0 || c < 0 || r >= rows || c >= cols || grid[r][c] === 'W') return;
         
         grid[r][c] = 'W';
-        
-        // Explore all 4 directions
-        dfs(r + 1, c); // Down
-        dfs(r - 1, c); // Up
-        dfs(r, c + 1); // Right
+        dfs(r + 1, c); 
+        dfs(r - 1, c); 
+        dfs(r, c + 1); 
         dfs(r, c - 1); // Left
     };
 
